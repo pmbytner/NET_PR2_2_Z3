@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<KategorieProduktów>
+  <Kategoria Nazwa="Warzywa">
+    <Informacje>Jakieś informacje o tej kategorii</Informacje>
+    <Produkty>
+      <Produkt Nazwa="Ziemniak">
+        <Cena>2 złote</Cena>
+        <KrajPochodzenia>Polska</KrajPochodzenia>
+      </Produkt>
+      <Produkt Nazwa="Sałata">
+        <Cena>12 złotych</Cena>
+        <KrajPochodzenia>Polska</KrajPochodzenia>
+      </Produkt>
+      <Produkt Nazwa="Awokado">
+        <Cena>22 złote</Cena>
+        <KrajPochodzenia>Kolumbia</KrajPochodzenia>
+      </Produkt>
+    </Produkty>
+  </Kategoria>
+  <Kategoria Nazwa="Owoce">
+    <Informacje>Jakieś informacje o tej kategorii</Informacje>
+    <Produkty>
+      <Produkt Nazwa="Pomidor">
+        <Cena>10 złotych</Cena>
+        <KrajPochodzenia>Polska</KrajPochodzenia>
+      </Produkt>
+      <Produkt Nazwa="Ogórek">
+        <Cena>7 złotych</Cena>
+        <KrajPochodzenia>Polska</KrajPochodzenia>
+      </Produkt>
+      <Produkt Nazwa="Jabłko">
+        <Cena>2 złote</Cena>
+        <KrajPochodzenia>Kolumbia</KrajPochodzenia>
+      </Produkt>
+    </Produkty>
+  </Kategoria>
+</KategorieProduktów>
