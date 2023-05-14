@@ -10,27 +10,19 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Xml;
 
 namespace NET_PR2_2_Z3;
 /// <summary>
-/// Interaction logic for MainWindow.xaml
+/// Logika interakcji dla klasy OknoSzczegółów.xaml
 /// </summary>
-public partial class OknoKategorii : Window
+public partial class OknoSzczegółów : Window
 {
-	public OknoKategorii()
+	XmlElement Kategoria;
+	public OknoSzczegółów(XmlElement kategoria)
 	{
+		DataContext = Kategoria = kategoria;
 		InitializeComponent();
-	}
-
-	private void Szczegóły(object sender, RoutedEventArgs e)
-	{
-		XmlElement wybranaKategoria = (XmlElement)ListaKategorii.SelectedItem;
-		if(wybranaKategoria != null )
-			new OknoSzczegółów(
-				wybranaKategoria
-				).Show();
 	}
 }
